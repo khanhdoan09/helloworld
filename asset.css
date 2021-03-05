@@ -15,3 +15,7 @@ table th {
     padding: 5px 15px;
 }
 
+table td {
+    text-align: center;
+}
+
