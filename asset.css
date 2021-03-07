@@ -4,11 +4,11 @@
 }
 
 body {
-    background-color: rgb(238, 236, 236);
+    background-color: rgb(196, 125, 125);
 }
 
 header {
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(54, 54, 54);
     width: 100%;
     font-family: 'Nunito', sans-serif;
 
@@ -25,7 +25,7 @@ ul li {
 }
 
 ul li a {
-    color: white;
+    color: rgb(235, 232, 232);
     text-decoration: none;
     font-size: 25px;
     padding: 20px;
@@ -68,15 +68,20 @@ ul li a:hover:before {
 .intro #title {
     margin-top: 4rem;
     font-size: 6rem;
-    color: rgb(44, 1, 1);
+    color: rgb(247, 243, 243);
+    text-shadow: 2px 2px #363636;
+
 }
 
 .intro #name-teacher {
     margin-top: 25px;
     font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+
 }
 
 .intro img {
     margin-top: 40px;
-    width: 40%;
+    width: 45%;
 }
