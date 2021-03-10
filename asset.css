@@ -3,8 +3,12 @@
     padding: 0;
 }
 
-body {
+.introduction {
     background-color: rgb(196, 125, 125);
+    background-position: 10% 90%;
+    background-repeat: no-repeat;
+    background-size: 350px 400px;
+    height: 100%;
 }
 
 header {
@@ -37,11 +41,11 @@ ul li a {
 ul li a:hover {
     cursor: pointer;
     background-color: rgb(235, 159, 159);
-    transition: .9s all;
+    transition: .2s all;
 }
 
 ul li a::before {
-    transition: .9s all;
+    transition: .2s all;
     content: '';
     background-color: rgb(235, 159, 159);
     position: absolute;
@@ -77,7 +81,7 @@ ul li a:hover:before {
     margin-top: 25px;
     font-size: 2rem;
     color: rgb(255, 255, 255);
-    font-style: italic;
+    font-style: oblique;
 
 }
 
