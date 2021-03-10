@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 231, 231);
+}
+
+h1 {
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+    color: rgb(36, 2, 30);
+    font-weight: bolder;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+table th {
+    background-color: rgb(64, 64, 109);
+    color: rgb(252, 241, 241);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+table td {
+    border-bottom: 1px solid rgb(173, 168, 168);
+}
+
+/*xóa border*/
+table, th, td {
+    border-collapse: collapse;
+    text-align: left;
+    padding: 20px 60px;
+   
+  }
